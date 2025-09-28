@@ -17,8 +17,8 @@ std::vector<int> targetVector(std::vector<int> nums, std::vector<int> index) {
 
 
 int main() {
-    std::vector<int> nums1 = {1};
-    std::vector<int> index1 = {0};
+    std::vector<int> nums1 = {0,1,2,3,4};
+    std::vector<int> index1 = {0,1,2,2,1};
     std::vector<int> result1 = targetVector(nums1, index1);
 
     std::cout << "Target Vector1: [";
